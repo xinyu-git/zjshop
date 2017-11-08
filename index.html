@@ -1259,8 +1259,14 @@
 			        $(".listPart").mCustomScrollbar({
 						horizontalScroll:true,
 						autoHideScrollbar:true,
-						scrollInertia:1000,
-						scrollEasing:"easeOut"
+						scrollInertia:20,
+						scrollEasing:"easeOut",
+						contentTouchScroll:true,
+						documentTouchScroll:true,
+						scrollButtons:{
+							//scrollSpeed:100, //点击按钮时的设置
+							//scrollAmount:5
+						}
 					});
 			        //竖向滚动
 					$(".list_tabBody").mCustomScrollbar({
