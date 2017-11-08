@@ -1260,10 +1260,12 @@
 						horizontalScroll:true,
 						autoHideScrollbar:true,
 						scrollInertia:3000,
-						scrollEasing:"easeOut",
+						scrollEasing:"linear",
+						contentTouchScroll:true,
+						documentTouchScroll:true,
 						scrollButtons:{
-							scrollSpeed:50,
-							scrollAmount:10
+							//scrollSpeed:100, //点击按钮时的设置
+							//scrollAmount:5
 						}
 					});
 			        //竖向滚动
