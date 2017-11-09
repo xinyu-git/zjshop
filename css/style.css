@@ -176,7 +176,7 @@
 .listWrap10 .buy_btn{background:#a6e004; }
 .listWrap10 .listF li{background: url(../images/listlibg10.png) no-repeat center;background-size: 100% 100%;}
 .listWrap10 .rewardName,.listWrap10 .rewardPrice{color: #a6e004;}
-.mCSB_container{transition:all 500ms ease;}
+.mCSB_container{transition:all 1s linear;}
 /*弹窗*/
 #maskLayer,.cjIng{ display:none; position:absolute; z-index:100; left:0; top:0; width:100%;margin:0 auto; height:100%; background:#000; opacity:0.3; filter:alpha(opacity=30);}
 .cjIng{display: block;}
